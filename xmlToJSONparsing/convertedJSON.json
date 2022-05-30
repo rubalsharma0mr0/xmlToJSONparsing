@@ -1,0 +1,240 @@
+{"dataFlow": {
+    "nodes": {"node": [
+        {
+            "itemtype": "datasetinput",
+            "name": "",
+            "id": "datasetinput-node",
+            "properties": {"property": [
+                {
+                    "name": "datasetid",
+                    "value": ""
+                },
+                {
+                    "name": "datasetinstanceid",
+                    "value": ""
+                },
+                {
+                    "name": "datasourceid",
+                    "value": ""
+                },
+                {
+                    "name": "connectionid",
+                    "value": "1f6cde33-96f7-4a4b-84f4-447c48e88a64"
+                },
+                {
+                    "name": "sourcetype",
+                    "value": "datasource"
+                },
+                {
+                    "name": "fields",
+                    "value": "saleskey,Region,Country,ItemType,SalesChannel,OrderPriority"
+                },
+                {
+                    "name": "ownerid",
+                    "value": 138
+                },
+                {
+                    "name": "entities",
+                    "value": "sales"
+                },
+                {
+                    "name": "synctype",
+                    "value": ""
+                },
+                {
+                    "name": "syncfields",
+                    "value": "",
+                    "content": " []"
+                },
+                {
+                    "name": "schema",
+                    "content": " [ {name:\"saleskey\",type:Number,Length:0,IsPrimaryKey:false,IsMandatory:false,DecPrecision:false,ViewLabel:\"\",DecScale:0},{name:\"Region\",type:Text,Length:0,IsPrimaryKey:false,IsMandatory:false,DecPrecision:false,ViewLabel:\"\",DecScale:0},{name:\"Country\",type:Text,Length:0,IsPrimaryKey:false,IsMandatory:false,DecPrecision:false,ViewLabel:\"\",DecScale:0},{name:\"ItemType\",type:Text,Length:0,IsPrimaryKey:false,IsMandatory:false,DecPrecision:false,ViewLabel:\"\",DecScale:0},{name:\"SalesChannel\",type:Text,Length:0,IsPrimaryKey:false,IsMandatory:false,DecPrecision:false,ViewLabel:\"\",DecScale:0},{name:\"OrderPriority\",type:Text,Length:0,IsPrimaryKey:false,IsMandatory:false,DecPrecision:false,ViewLabel:\"\",DecScale:0}] "
+                },
+                {
+                    "name": "testRunOutput",
+                    "value": ""
+                },
+                {
+                    "name": "Condition",
+                    "value": "whereCondition",
+                    "content": "{\"filters\": [] }"
+                },
+                {
+                    "name": "aliasMap",
+                    "value": "",
+                    "content": " [ []] "
+                }
+            ]}
+        },
+        {
+            "itemtype": "datasetoutput",
+            "name": "",
+            "id": "datasetoutput-node",
+            "properties": {"property": [
+                {
+                    "name": "datasetid",
+                    "value": "6eb73a37-e5c4-402e-9953-0d3050fe91f8"
+                },
+                {
+                    "name": "connectionid",
+                    "value": "80350a0e-00ea-4b19-a491-bd0f000f4e54"
+                },
+                {
+                    "name": "connectionname",
+                    "value": ""
+                },
+                {
+                    "name": "systemname",
+                    "value": " Name SE_Mongo_Dev_0330"
+                },
+                {
+                    "name": "fields",
+                    "value": "",
+                    "content": " [{\"Name\":\"saleskey\",\"Value\":839993,\"Type\":0,\"typename\":\"Number\",\"Length\":0,\"IsPrimaryKey\":false,\"IsMandatory\":false,\"DecPrecision\":0,\"ViewLabel\":\"\",\"DecScale\":0,\"keytype\":\"\",\"IsPartitionKey\":false,\"IsUniqueKey\":false},{\"Name\":\"Region\",\"Value\":839994,\"Type\":1,\"typename\":\"Text\",\"Length\":0,\"IsPrimaryKey\":false,\"IsMandatory\":false,\"DecPrecision\":0,\"ViewLabel\":\"\",\"DecScale\":0,\"keytype\":\"\",\"IsPartitionKey\":false,\"IsUniqueKey\":false},{\"Name\":\"Country\",\"Value\":839995,\"Type\":1,\"typename\":\"Text\",\"Length\":0,\"IsPrimaryKey\":false,\"IsMandatory\":false,\"DecPrecision\":0,\"ViewLabel\":\"\",\"DecScale\":0,\"keytype\":\"\",\"IsPartitionKey\":false,\"IsUniqueKey\":false},{\"Name\":\"ItemType\",\"Value\":839996,\"Type\":1,\"typename\":\"Text\",\"Length\":0,\"IsPrimaryKey\":false,\"IsMandatory\":false,\"DecPrecision\":0,\"ViewLabel\":\"\",\"DecScale\":0,\"keytype\":\"\",\"IsPartitionKey\":false,\"IsUniqueKey\":false},{\"Name\":\"SalesChannel\",\"Value\":839997,\"Type\":1,\"typename\":\"Text\",\"Length\":0,\"IsPrimaryKey\":false,\"IsMandatory\":false,\"DecPrecision\":0,\"ViewLabel\":\"\",\"DecScale\":0,\"keytype\":\"\",\"IsPartitionKey\":false,\"IsUniqueKey\":false},{\"Name\":\"OrderPriority\",\"Value\":839998,\"Type\":1,\"typename\":\"Text\",\"Length\":0,\"IsPrimaryKey\":false,\"IsMandatory\":false,\"DecPrecision\":0,\"ViewLabel\":\"\",\"DecScale\":0,\"keytype\":\"\",\"IsPartitionKey\":false,\"IsUniqueKey\":false}] "
+                },
+                {
+                    "name": "datasetcustomobjectid",
+                    "value": 100337
+                },
+                {
+                    "name": "databoxid",
+                    "value": -1
+                },
+                {
+                    "name": "ownerid",
+                    "value": 138
+                },
+                {
+                    "name": "isautogenerateduniquekey",
+                    "value": false
+                },
+                {
+                    "name": "autogeneratedcolumnnname",
+                    "value": ""
+                },
+                {
+                    "name": "datamodelid",
+                    "value": 100215
+                },
+                {
+                    "name": "IsNewTable",
+                    "value": true
+                },
+                {
+                    "name": "SaveType",
+                    "value": ""
+                },
+                {
+                    "name": "UpdateCriteria",
+                    "value": "",
+                    "content": " [] "
+                },
+                {
+                    "name": "fieldsschema",
+                    "fields": {"field": [
+                        {
+                            "DecPrecision": 0,
+                            "IsMandatory": false,
+                            "ViewLabel": "",
+                            "Length": 0,
+                            "name": "saleskey",
+                            "IsPartitionKey": false,
+                            "typeid": 0,
+                            "keytype": "",
+                            "id": 839993,
+                            "type": "Number",
+                            "DecScale": 0,
+                            "IsPrimaryKey": false
+                        },
+                        {
+                            "DecPrecision": 0,
+                            "IsMandatory": false,
+                            "ViewLabel": "",
+                            "Length": 0,
+                            "name": "Region",
+                            "IsPartitionKey": false,
+                            "typeid": 1,
+                            "keytype": "",
+                            "id": 839994,
+                            "type": "Text",
+                            "DecScale": 0,
+                            "IsPrimaryKey": false
+                        },
+                        {
+                            "DecPrecision": 0,
+                            "IsMandatory": false,
+                            "ViewLabel": "",
+                            "Length": 0,
+                            "name": "Country",
+                            "IsPartitionKey": false,
+                            "typeid": 1,
+                            "keytype": "",
+                            "id": 839995,
+                            "type": "Text",
+                            "DecScale": 0,
+                            "IsPrimaryKey": false
+                        },
+                        {
+                            "DecPrecision": 0,
+                            "IsMandatory": false,
+                            "ViewLabel": "",
+                            "Length": 0,
+                            "name": "ItemType",
+                            "IsPartitionKey": false,
+                            "typeid": 1,
+                            "keytype": "",
+                            "id": 839996,
+                            "type": "Text",
+                            "DecScale": 0,
+                            "IsPrimaryKey": false
+                        },
+                        {
+                            "DecPrecision": 0,
+                            "IsMandatory": false,
+                            "ViewLabel": "",
+                            "Length": 0,
+                            "name": "SalesChannel",
+                            "IsPartitionKey": false,
+                            "typeid": 1,
+                            "keytype": "",
+                            "id": 839997,
+                            "type": "Text",
+                            "DecScale": 0,
+                            "IsPrimaryKey": false
+                        },
+                        {
+                            "DecPrecision": 0,
+                            "IsMandatory": false,
+                            "ViewLabel": "",
+                            "Length": 0,
+                            "name": "OrderPriority",
+                            "IsPartitionKey": false,
+                            "typeid": 1,
+                            "keytype": "",
+                            "id": 839998,
+                            "type": "Text",
+                            "DecScale": 0,
+                            "IsPrimaryKey": false
+                        }
+                    ]}
+                },
+                {
+                    "name": "isTruncateInsert",
+                    "value": false
+                }
+            ]}
+        }
+    ]},
+    "edges": {"edge": {
+        "name": "",
+        "start": {
+            "ref": "datasetinput-node",
+            "name": ""
+        },
+        "end": {
+            "ref": "datasetoutput-node",
+            "name": "c63228c0-5ed9-4d56-93c8-fd0548597efa"
+        },
+        "id": "c63228c0-5ed9-4d56-93c8-fd0548597efa"
+    }}
+}}
